@@ -1,0 +1,22 @@
+@media (max-width: 700px) {
+  a {
+    background: #Ccc;
+    display: block;
+    transform-origin: left;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    animation: animate 1s linear infinite;
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0de);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
